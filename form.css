@@ -1,0 +1,158 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(/images/forest-fire-432870__480.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+.first_div
+
+nav{
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    padding-left: 5%;
+}
+
+ul{
+    font-size: large;
+    display: flex;
+    list-style-type: none;
+    padding-right: 10%; 
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 5%;
+}
+.form_div{
+    background-color: rgba(33, 30, 30, 0.539);
+    height: 100%;
+    width: 400px;
+    padding: 1%;
+    border-radius: 5%;
+    color: white;
+}
+.second_container{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 45px ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(33, 30, 30, 0.539);
+    border-radius: 50%; 
+}
+h1 {
+    font-size: 30px;
+}
+
+.bold{
+    font-size: 40px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.icon{
+   
+}
+.button{
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(33, 6, 240, 0.733);
+}
+input[type="text"],input[type="number"],input[type="mail"],input[type="date"]{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    /* background-color:red; */
+}
+input:hover{
+    background-color: rgba(40, 43, 255, 0.433);
+    color: white;
+}
+
+@media (max-width: 1024px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.422);
+    }
+    ul{
+        font-size: large;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        /* align-items: center; */
+    }
+    li{
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 25%;
+    }
+    .form_div{
+        background-color: rgba(33, 30, 30, 0.539);
+        height: 100%;
+        width:80%;
+        padding: 5%;
+        border-radius: 5%;
+        color: white;
+    }
+    .second_container{
+        width: 95%;
+        height:100%;
+        text-align: center;
+        font-size: x-large ;
+        color: rgb(255, 255, 255);
+        background-color: rgba(33, 30, 30, 0.539);
+        border-radius: 50%;   
+    }
+    .second_container > p{
+        font-size: large;
+    }
+}
+
