@@ -2,12 +2,12 @@ body{
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(/images/forest-fire-432870__480.jpeg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex; 
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
 }
 .first_div
 
@@ -16,6 +16,7 @@ nav{
     height: 90px;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.422);
+    width: 100vw;
 }
 img{
     width: 100px;
